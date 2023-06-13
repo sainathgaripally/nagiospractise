@@ -1,0 +1,9 @@
+define host {
+      host_name                     webserver
+      address                       172.31.85.195
+      max_check_attempts            3
+      check_period                  24*7
+      contacts                      generic-contact        
+      notification_period           60
+      notification_interval         24*7
+}
